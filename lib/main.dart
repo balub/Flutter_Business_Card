@@ -48,8 +48,9 @@ class MyApp extends StatelessWidget {
                   color: Colors.white,
                   child: Row(
                     children: <Widget>[
-                      Container(
-                        child: Image.asset('images/1.png'),
+                      Icon(
+                        Icons.call,
+                        size: 40,
                       ),
                       Container(
                         child: Text('+91 7760579605'),
@@ -64,11 +65,12 @@ class MyApp extends StatelessWidget {
                   color: Colors.white,
                   child: Row(
                     children: <Widget>[
-                      Container(
-                        child: Image.asset('images/1.png'),
+                      Icon(
+                        Icons.mail,
+                        size: 40,
                       ),
                       Container(
-                        child: Text('+91 7760579605'),
+                        child: Text('balub997@gmail.com'),
                       ),
                     ],
                   ),
