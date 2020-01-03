@@ -7,32 +7,39 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.teal[400],
         body: SafeArea(
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Container(
-                  height: 100.0,
-                  width: 100.0,
-                  color: Colors.white,
-                  child: Text("Container 1")),
-              SizedBox(
-                height: 10.0,
+                height: 100,
+                width: 100,
+                child: Image.network(
+                    'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg'),
               ),
               Container(
-                  height: 100.0,
-                  width: 100.0,
-                  color: Colors.greenAccent,
-                  child: Text("Container 2")),
-              SizedBox(
-                height: 10.0,
+                child: Text('Balu B Naidu'),
               ),
               Container(
-                  height: 100.0,
-                  width: 100.0,
-                  color: Colors.orange,
-                  child: Text("Container 3")),
+                child: Text('Android Dev'),
+              ),
+              Container(
+                height: 100,
+                width: 200,
+                color: Colors.white,
+                child: Row(
+                  children: <Widget>[
+                    Container(
+                      child: NetworkImage(''),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                height: 100,
+                width: 200,
+                color: Colors.white,
+              ),
             ],
           ),
         ),
