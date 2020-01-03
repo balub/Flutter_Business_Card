@@ -44,33 +44,23 @@ class MyApp extends StatelessWidget {
                 Card(
                   margin: EdgeInsets.all(20),
                   color: Colors.white,
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.call,
-                        size: 40,
-                      ),
-                      Container(
-                        margin: EdgeInsets.only(left: 10),
-                        child: Text('+91 7760579605'),
-                      ),
-                    ],
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.call,
+                      size: 40,
+                    ),
+                    title: Text('+91 7760579605'),
                   ),
                 ),
                 Card(
                   margin: EdgeInsets.all(20),
                   color: Colors.white,
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
-                        Icons.mail,
-                        size: 40,
-                      ),
-                      Container(
-                        margin: EdgeInsets.only(left: 10),
-                        child: Text('balub997@gmail.com'),
-                      ),
-                    ],
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.mail,
+                      size: 40,
+                    ),
+                    title: Text('balub997@gmail.com'),
                   ),
                 ),
               ],
