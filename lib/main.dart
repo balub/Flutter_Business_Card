@@ -41,10 +41,8 @@ class MyApp extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                 ),
-                SizedBox(height: 20),
-                Container(
-                  height: 24,
-                  width: 200,
+                Card(
+                  margin: EdgeInsets.all(20),
                   color: Colors.white,
                   child: Row(
                     children: <Widget>[
@@ -53,15 +51,14 @@ class MyApp extends StatelessWidget {
                         size: 40,
                       ),
                       Container(
+                        margin: EdgeInsets.only(left: 10),
                         child: Text('+91 7760579605'),
                       ),
                     ],
                   ),
                 ),
-                SizedBox(height: 20),
-                Container(
-                  height: 100,
-                  width: 200,
+                Card(
+                  margin: EdgeInsets.all(20),
                   color: Colors.white,
                   child: Row(
                     children: <Widget>[
@@ -70,6 +67,7 @@ class MyApp extends StatelessWidget {
                         size: 40,
                       ),
                       Container(
+                        margin: EdgeInsets.only(left: 10),
                         child: Text('balub997@gmail.com'),
                       ),
                     ],
