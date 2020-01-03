@@ -23,14 +23,22 @@ class MyApp extends StatelessWidget {
                 Container(
                   child: Text(
                     'Balu B Naidu',
-                    style: TextStyle(fontSize: 40, color: Colors.white),
+                    style: TextStyle(
+                        fontSize: 40,
+                        color: Colors.white,
+                        fontFamily: 'Pacifico',
+                        fontWeight: FontWeight.bold),
                   ),
                 ),
                 SizedBox(height: 20),
                 Container(
                   child: Text(
-                    'Android Dev',
-                    style: TextStyle(fontSize: 20, color: Colors.white),
+                    'ANDROID DEV',
+                    style: TextStyle(
+                        fontSize: 20,
+                        color: Colors.white,
+                        fontFamily: 'SourceSansPro',
+                        fontWeight: FontWeight.bold),
                   ),
                 ),
                 SizedBox(height: 20),
