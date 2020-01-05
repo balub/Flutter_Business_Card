@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
         body: SafeArea(
           child: Center(
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.center,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Container(
                   height: 100,
@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
                   child: Image.network(
                       'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl-2.jpg'),
                 ),
-                SizedBox(height: 20),
                 Container(
                   child: Text(
                     'Balu B Naidu',
@@ -30,7 +29,6 @@ class MyApp extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                 ),
-                SizedBox(height: 20),
                 Container(
                   child: Text(
                     'ANDROID DEV',
@@ -41,6 +39,12 @@ class MyApp extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                 ),
+                SizedBox(
+                  width: 300,
+                  child: Divider(
+                    color: Colors.white,
+                  ),
+                ),
                 Card(
                   margin: EdgeInsets.all(20),
                   color: Colors.white,
@@ -49,7 +53,7 @@ class MyApp extends StatelessWidget {
                       Icons.call,
                       size: 40,
                     ),
-                    title: Text('+91 7760579605'),
+                    title: Text('+91 123456789'),
                   ),
                 ),
                 Card(
@@ -60,7 +64,7 @@ class MyApp extends StatelessWidget {
                       Icons.mail,
                       size: 40,
                     ),
-                    title: Text('balub997@gmail.com'),
+                    title: Text('xyz@gmail.com'),
                   ),
                 ),
               ],
