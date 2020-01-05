@@ -1,16 +1,14 @@
-# mi_card_flutter
+# Mi_card_flutter
 
-A new Flutter application.
+A simple business card made using Flutter
 
-## Getting Started
+## Features
+    --Display your Info 
 
-This project is a starting point for a Flutter application.
+## Screenshots
 
-A few resources to get you started if this is your first Flutter project:
+[<img src ="https://imgur.com/SWsc0KZ.jpg" width=250>](https://imgur.com/SWsc0KZ.jpg)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Built with 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[<img src ="https://mobile-di.com/wp-content/uploads/2018/08/flutter-review.jpeg" width=300>](https://mobile-di.com/wp-content/uploads/2018/08/flutter-review.jpeg)
